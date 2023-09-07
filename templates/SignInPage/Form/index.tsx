@@ -38,7 +38,7 @@ const Form = ({}: FormProps) => {
                                 </Tab>
                             ))}
                         </Tab.List>
-                        <button className="btn-stroke-light btn-large w-full mb-3">
+                       {/* <button className="btn-stroke-light btn-large w-full mb-3">
                             <Image
                                 src="/images/google.svg"
                                 width={24}
@@ -47,7 +47,7 @@ const Form = ({}: FormProps) => {
                             />
                             <span className="ml-4">Continue with Google</span>
                         </button>
-                        <button className="btn-stroke-light btn-large w-full">
+                         <button className="btn-stroke-light btn-large w-full">
                             <Image
                                 src="/images/apple.svg"
                                 width={24}
@@ -55,7 +55,7 @@ const Form = ({}: FormProps) => {
                                 alt=""
                             />
                             <span className="ml-4">Continue with Apple</span>
-                        </button>
+                        </button> 
                         <div className="flex items-center my-8 md:my-4">
                             <span className="grow h-0.25 bg-n-4/50"></span>
                             <span className="shrink-0 mx-5 text-n-4/50">
@@ -63,6 +63,7 @@ const Form = ({}: FormProps) => {
                             </span>
                             <span className="grow h-0.25 bg-n-4/50"></span>
                         </div>
+                        */}
                         <Tab.Panels>
                             <Tab.Panel>
                                 <SignIn onClick={() => setForgot(true)} />

@@ -29,7 +29,7 @@ const SignInPage = () => {
             <div className="flex grow my-6 mr-6 p-10 bg-n-1 rounded-[1.25rem] lg:m-0 md:p-0 dark:bg-n-6">
                 <Form />
             </div>
-            <Link
+           {/* <Link
                 className="group absolute top-12 right-12 flex justify-center items-center w-10 h-10 bg-n-2 rounded-full text-0 transition-colors hover:bg-primary-1 md:top-6 md:right-6"
                 href="/"
             >
@@ -37,7 +37,7 @@ const SignInPage = () => {
                     className="fill-n-7 transition-colors group-hover:fill-n-1"
                     name="close"
                 />
-            </Link>
+            </Link>*/}
         </div>
     );
 };

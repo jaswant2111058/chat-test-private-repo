@@ -22,7 +22,7 @@ const Profile = ({ visible }: ProfileProps) => (
                 <div className="relative w-10 h-10">
                     <Image
                         className="rounded-full object-cover"
-                        src="/images/avatar.jpg"
+                        src="/images/avatar.jpg" // set profile images here
                         fill
                         alt="Avatar"
                     />
@@ -32,10 +32,10 @@ const Profile = ({ visible }: ProfileProps) => (
                     <>
                         <div className="ml-4 mr-4">
                             <div className="base2 font-semibold text-n-1">
-                                Tran Mau Tri Tam
+                                user name
                             </div>
                             <div className="caption1 font-semibold text-n-3/50">
-                                tam@ui8.net
+                             user mail
                             </div>
                         </div>
                         <div className="shrnik-0 ml-auto self-start px-3 bg-primary-2 rounded-lg caption1 font-bold text-n-7">

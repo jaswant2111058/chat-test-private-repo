@@ -37,7 +37,7 @@ const Profile = ({}: ProfileProps) => {
                     <Menu.Button className="group relative w-10 h-10 rounded-full transition-shadow ui-open:shadow-[0_0_0_0.25rem_#0084FF]">
                         <Image
                             className="rounded-full object-cover"
-                            src="/images/avatar.jpg"
+                            src="/images/avatar.jpg" // changes here for profile images
                             fill
                             alt="Avatar"
                         />
